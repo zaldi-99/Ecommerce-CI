@@ -18,9 +18,9 @@
                   <td><?php echo $inv->alamat ?></td>
                   <td><?php echo $inv->tgl_pesan ?></td>
                   <td><?php echo $inv->batas_bayar ?></td>
-                  <td><div>
+                  <td><?php echo anchor('admin/Invoice/detail/' .$inv->id,'<div>
                         <button class="btn btn-sm btn-primary">Detail</button>
-                  </div></td>
+                  </div>') ?></td>
 
             </tr>
 
