@@ -16,7 +16,7 @@
                   </div>
 
                   <h3 class="mt-3">Input Alamat pengiriman dan Pembayaran</h3>
-                  <form methhod="post" action="<?php echo base_url('Dashboard/proses_pesanan') ?>">
+                  <form method="post" action="<?php echo base_url('Dashboard/proses_pesanan') ?>">
 
                         <div class="form-group">
                               <label for="">Nama Lengkap</label>
