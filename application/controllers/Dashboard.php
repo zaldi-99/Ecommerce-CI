@@ -54,5 +54,14 @@
                   }
                   
             }
+
+            public function detail($id_barang){
+                  $data['barang'] = $this->model_barang->detail_barang($id_barang);
+
+                  $this->load->view('templates/header');
+                  $this->load->view('templates/sidebar');
+                  $this->load->view('detail_barang',$data);
+                  $this->load->view('templates/footer');
+            }
       }
 ?>

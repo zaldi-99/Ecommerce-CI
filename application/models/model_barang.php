@@ -35,6 +35,15 @@
                         return array();
                   }
             }
+
+            public function detail_barang($id_barang){
+                  $result = $this->db->where('id_barang',$id_barang)->get('tb_barang');
+                  if ($result->num_rows() > 0) {
+                        return $result->result();
+                  }else {
+                        return false;
+                  }
+            }
       }
       
 
