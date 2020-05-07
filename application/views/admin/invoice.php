@@ -22,8 +22,8 @@
                   <td><?php echo anchor('admin/Invoice/detail/' .$inv->id,'<div>
                         <button class="btn btn-sm btn-primary">Detail</button>
                   </div>') ?></td>
-                  <td><a href="<?php echo base_url('admin/Invoice/selesai/') ?>"><div class="btn btn-sm btn-danger">Selesai</div></a></td>
-
+                  <td><a href="#"><div class="btn btn-sm btn-danger">Selesai</div></a></td>
+                  <!-- "<?php echo base_url('admin/Invoice/selesai/') ?>" -->
                   
             </tr>
 

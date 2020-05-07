@@ -2,6 +2,7 @@
 
       class Kategori extends CI_Controller
       {
+            
             public function elektronik(){
                   $data['elektronik'] = $this->model_kategori->data_elektronik()->result();
 
