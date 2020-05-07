@@ -17,8 +17,11 @@
                   $this->load->view('templates_admin/sidebar');
                   $this->load->view('admin/detail_invoice',$data);
                   $this->load->view('templates_admin/footer');
-            
+            }
 
+            public function selesai(){
+                  $this->cart->destroy();
+                  redirect('admin/Dashboard_admin/index');
             }
       }
       

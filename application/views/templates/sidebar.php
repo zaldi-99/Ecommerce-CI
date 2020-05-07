@@ -7,7 +7,7 @@
     <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
       <!-- Sidebar - Brand -->
-      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="<?php echo base_url('Dashboard')?>">
         <div class="sidebar-brand-icon">
           <i class="fas fa-store"></i>
         </div>
@@ -34,31 +34,31 @@
 
       <!-- Nav Item - Tables -->
       <li class="nav-item">
-        <a class="nav-link" href="tables.html">
+        <a class="nav-link" href="<?php echo base_url('Kategori/elektronik')?>">
           <i class="fas fa-fw fa-tv"></i>
           <span>Elektronik</span></a>
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" href="tables.html">
+        <a class="nav-link" href="<?php echo base_url('Kategori/pakaian_pria')?>">
           <i class="fas fa-fw fa-tshirt"></i>
           <span>Pakaian Pria</span></a>
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" href="tables.html">
+        <a class="nav-link" href="<?php echo base_url('Kategori/pakaian_wanita')?>">
           <i class="fas fa-fw fa-tshirt"></i>
           <span>Pakaian Wanita</span></a>
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" href="tables.html">
+        <a class="nav-link" href="<?php echo base_url('Kategori/pakaian_anak_anak')?>">
           <i class="fas fa-fw fa-tshirt"></i>
           <span>Pakaian Anak-Anak</span></a>
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" href="tables.html">
+        <a class="nav-link" href="<?php echo base_url('Kategori/peralatan_olahraga')?>">
           <i class="fas fa-fw fa-futbol"></i>
           <span>Peralatan Olahraga</span></a>
       </li>

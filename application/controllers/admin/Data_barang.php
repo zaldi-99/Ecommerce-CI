@@ -81,6 +81,15 @@
                   $this->model_barang->hapus_data($where,'tb_barang');
                   redirect('admin/Data_barang/index');
             }
+
+            public function detail_admin($id_barang){
+                  $data['barang'] = $this->model_barang->detail_barang($id_barang);
+
+                  $this->load->view('templates_admin/header');
+                  $this->load->view('templates_admin/sidebar');
+                  $this->load->view('admin/detail_barang',$data);
+                  $this->load->view('templates_admin/footer');
+            }
       }
       
 
